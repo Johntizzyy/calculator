@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 15%);
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 0.2fr);
+  gap: 10px;
+  padding: 20px;
+}
+.keys button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  background-color: hsl(0, 0%, 30%);
+  font-weight: bold;
+}
+
+
+.keys button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+.keys button:active {
+  background-color: hsl(0, 0%, 50%);
+}
+
+input {
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 4rem;
+  text-align: left;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+}
+
+button.operators {
+    background-color: hsl(35, 100%, 55%);
+  }
+  
+  button.operators:hover {
+    background-color: hsl(35, 100%, 65%);
+  }
+  button.operators:active {
+    background-color: hsl(35, 100%, 75%);
+  }
+  
+p#copy{
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:thin;
+    font-size: 12px;
+    margin-top: -10px;
+    padding: 0;
+}
